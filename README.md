@@ -2,7 +2,7 @@
 Multi-classification problem, LDA 
 ### 1.问题描述：
 如何通过可穿戴设备中的加速度计和陀螺仪所采集的运动信号数据，测量人们日常生活中的运动情况及其带来的卡路里消耗变得至关重要。研究人员充分考虑性别、年龄、身高、体重上的差异，选定14个受试人员并采集12种不同状态下（躺、坐、站立、步行、跑步、上楼梯、下楼梯等）的传感器数据，参见美国南加州大学的人体动作数据库USC-HAD（所采用的MotionNode传感器是一款6自由度的惯性测量单元，其采样频率为100Hz，三轴加速度计和陀螺仪均规定竖直向下为x轴正方向，前进方向为y轴正方向，水平向右为z轴正方向，且x轴垂直于y轴和z轴组成的平面）。基于上述采集数据，对运动中用户的传感器数据进行分类，判别传感器数据属于哪一种状态。
-# 
+ 
 Device Configuration<br>
 Device Type: MotionNode<br>
 Sampling rate: 100Hz<br>
@@ -12,7 +12,7 @@ Gyroscope range: +-500dps<br>
 ### 2.数据格式：
 
 1).传感器采集的样本数据：
-#
+
 For sensor_readings field, it consists of 6 readings:<br>
 From left to right:<br>
 acc_x, w/ unit g (gravity)<br>
@@ -22,7 +22,7 @@ gyro_x, w/ unit dps (degrees per second)<br>
 gyro_y, w/ unit dps<br>
 gyro_z, w/ unit dps<br>
 
->> 2).标签数据：
+2).标签数据：
 运动状态包括12种，分别是，<br>
 Walking Forward<br>
 Walking Left<br>
